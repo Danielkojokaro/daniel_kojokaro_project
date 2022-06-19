@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* EX_4 CSS */
+
+title {
+  color:blue; 
+  font-size:360%;
+  text-align:left; 
+  text-decoration: none
+}
+  
+h1 {
+  color:yellowgreen; 
+  font-size:300%;
+  text-align: left ; 
+  text-decoration: none
+}
+
+h2 {
+  color:blue; 
+  font-size:300%;
+  text-align:center; 
+  text-decoration: none
+}
+
+h3 {
+  color:red; 
+  font-size:500%;
+  text-align: left; 
+  text-decoration: none
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 15px;
+  background-color: beige;
+}
+
+.footer {
+  background-color: #524d4d;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#aaa:hover {
+transform: rotate(180deg);
+}
+
+#bbb:hover {
+transform: rotate(360deg);
+transition-duration: 1s;
+}
+
+#ccc:hover {
+  transform: rotate(360deg);
+  transition-duration: 1s;
+}
+
+p {
+  color:rgb(245, 12, 214); 
+  font-size:100%;
+  text-align:center; 
+  text-decoration: none;
+}
+
+img:nth-child(4) {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto
+}
+
+img:nth-child(5) {
+  display: inline-block;
+  max-height: 100px;
+  max-width: 100px;
+  margin: .2em
+}
+
+img:nth-child(7) {
+  display: inline-block;
+  max-height: 128px;
+  max-width: 128px;
+  margin: .2em
+}
+
+pre {
+  width: 66%;
+  font-size: x-small;
+  color:rgb(116, 92, 204);
+}
+
+/* Odd  */
+li:nth-of-type(2n+1){
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  background-color: skyblue;
+}
+
+/* Even  */
+li:nth-of-type(2n) {
+  font-style: italic;
+  font-weight: 400;
+  background-color: rgb(192, 231, 146);
+}
+
+.topnav {
+overflow: hidden;
+background-color: rgb(226, 178, 178);
+}
+
+.topnav a {
+float: center;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.topnav a:hover {
+background-color: rgb(221, 17, 17);
+color: black;
+}
+
+button.actionButton{
+background-color: rgb(223, 111, 111);
+text-align: center;
+padding: 14px 16px;
+font-family: 'Times New Roman', Times, serif;
+font-style: bold;
+color:blue;
+font-size: medium;
+
+}
+
+label{
+  background-color: rgb(238, 248, 194);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: bold;
+  color:rgb(4, 4, 247);
+  font-size: medium;
+  
+}
+
+.actionButton:hover{
+background-color: pink;
+font-style: bold;
+font-size: medium;
+}
+
+.actionButton:active {
+background-color: rgb(215, 118, 111);
+font-style: bold;
+font-size: medium;
+}
+
+.calc1{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px;
+}
+.result{
+justify-content: center;
+height: 50px;
+}
+
+a { 
+  font-style: bold;
+  font-weight: 250;
+  font-display: block;
+  background-color: rgb(230, 53, 22);
+}
+
